@@ -5,8 +5,7 @@ document.getElementById("formContato").addEventListener("submit", function(e) {
   let email = document.getElementById("email").value;
   let mensagem = document.getElementById("mensagem").value;
 
-  let numero = "5599999999999"; // TROQUE PELO SEU NÚMERO
-
+  let numero = "5519998284139"; 
   let texto = `Olá! Me chamo ${nome}.
 Email: ${email}
 Mensagem: ${mensagem}`;
