@@ -1,0 +1,72 @@
+html {
+  margin: 0px;
+}
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.head {
+  padding: 15px;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffe6f0; /* rosa claro */
+  text-align: center;
+}
+
+header {
+  background-color: #ff99c2;
+  color: white;
+  padding: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: white;
+  border: 2px solid #ff99c2;
+  border-radius: 10px;
+  width: 250px;
+  height: 250px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card h2 a {
+  color: #ff3399;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #333;
+}
+
+h2 {
+  cursor: poi;
+}
+
+.imagem img {
+  width: 60%;
+  border-radius: 10px;
+}
